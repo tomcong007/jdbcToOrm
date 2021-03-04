@@ -15,7 +15,7 @@ public class ApplicationListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         //反正写着玩,搞个自动扫描创建实体类
          writer.scanAllTable();
-         //也可以写自定义注解，扫描实体类的注解，来自动建表
+         //也可以写自定义注解，扫描实体类的注解，来自动建表,待续
         reader.readAnotation();
     }
 
